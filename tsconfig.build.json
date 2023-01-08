@@ -1,0 +1,14 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "declaration": true,
+      "outDir": "dist",
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+    },
+    "exclude": [
+        "./src/app.ts"
+    ]
+}
