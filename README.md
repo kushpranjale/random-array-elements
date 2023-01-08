@@ -1,4 +1,4 @@
-# pick-array-element
+# @js_fleet/random-array-elements
 
 > Pick random elements from an array 
 
@@ -7,14 +7,16 @@ Uses the [Durstenfeld algorithm](https://en.wikipedia.org/wiki/Fisher%E2%80%93Ya
 ## Install
 
 ```
-$ npm install pick-array-element
+$ npm install @js_fleet/random-array-elements
 ```
 
 ## Usage
 
 ```js
-import { pickRandomElements } from "pick-array-element";
+//=> Import pickRandomElements
+import { pickRandomElements } from "@js_fleet/random-array-elements";
 
+//=> usage
 try {
 const arr = [1, 2, 3, 4, 5, 6]
 const no_of_picks = 2
@@ -24,6 +26,4 @@ const pick = await pickRandomElements(arr,no_of_picks);
 //=> If any error
 }
 ```
-## NPM package used
 
-[mersenne-twister](https://www.npmjs.com/package/mersenne-twister)

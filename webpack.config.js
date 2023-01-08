@@ -1,6 +1,6 @@
 const path = require('path');
 
-const PACKAGE_NAME = 'pick-array-element';
+const PACKAGE_NAME = '@js_fleet/random-array-elements';
 
 const config = {
   context: __dirname,

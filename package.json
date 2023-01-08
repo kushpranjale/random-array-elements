@@ -1,12 +1,24 @@
 {
-  "name": "pick-array-element",
+  "name": "@js_fleet/random-array-elements",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "Pick random elements from an array ",
-  "homepage": "https://github.com/kushpranjale/random-array-elements.git",
+  "homepage": "https://github.com/kushpranjale/random-array-elements",
+  "bugs": {
+    "url": "https://github.com/kushpranjale/random-array-elements/issues",
+    "email": "kush13feb@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kushpranjale/random-array-elements.git"
+  },
   "author": {
-    "name": "Kush Pranjale"
+    "name": "Kush Pranjale",
+    "email": "kush13feb@gmail.com"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "tsc --build ./tsconfig.build.json && webpack --mode production"
