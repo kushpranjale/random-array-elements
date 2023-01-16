@@ -50,16 +50,33 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.pickRandomElements = void 0;
 var mersenne_twister_1 = __importDefault(require("mersenne-twister"));
-var pickRandomElements = function (_arr, _no_to_pick) { return __awaiter(void 0, void 0, void 0, function () {
-    var _picks, _array, i, _generator, _num, index;
+var pickRandomElements = function (_arrs, _no_to_pick) { return __awaiter(void 0, void 0, void 0, function () {
+    var _arr, _picks, _array, i, _generator, _num, index;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0:
-                if (!Array.isArray(_arr)) {
-                    throw new Error("Expected an array, got ".concat(typeof _arr));
+                if (typeof (_arrs) === 'undefined') {
+                    throw new Error('Illegal argument exception - array is not defined.');
                 }
-                if (_arr.length < _no_to_pick)
-                    throw new Error('pick number is greater then length of array');
+                if (typeof (_no_to_pick) === 'undefined') {
+                    throw new Error('Illegal argument exception - n is not defined.');
+                }
+                if (_arrs === null) {
+                    throw new Error('Illegal argument exception  - array cannot be null.');
+                }
+                if (_arrs.length < 1) {
+                    throw new Error('Illegal argument exception - array must at least a length of one.');
+                }
+                if (_no_to_pick < 1) {
+                    throw new Error('Illegal argument exception - n canot be less than 1.');
+                }
+                if (typeof (_no_to_pick) !== 'number') {
+                    throw new Error('Type Error - n must be a number.');
+                }
+                if (_no_to_pick > _arrs.length) {
+                    throw new Error('Illegal argument exception - n cannot be greater than the length of the array.');
+                }
+                _arr = _arrs.slice();
                 _picks = [];
                 _array = _arr.slice();
                 return [4 /*yield*/, arrayShuffle(_array)];

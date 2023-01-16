@@ -9,6 +9,7 @@
       "esModuleInterop": true,
     },
     "exclude": [
-        "./src/app.ts"
+        "./src/app.ts",
+        "./src/test.js"
     ]
 }

@@ -1,3 +1,11 @@
+## Code stats
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kushpranjale/random-array-elements?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/kushpranjale/random-array-elements?style=flat-square)
+![GitHub language count](https://img.shields.io/github/languages/count/kushpranjale/random-array-elements?style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/kushpranjale/random-array-elements?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/kushpranjale/random-array-elements?style=flat-square)
+
 # @js_fleet/random-array-elements
 
 > Pick random elements from an array 
