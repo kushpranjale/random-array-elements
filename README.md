@@ -2,6 +2,7 @@
   <a href="https://github.com/kushpranjale/random-array-elements/actions/workflows/test.yml"><img src="https://github.com/kushpranjale/random-array-elements/actions/workflows/test.yml/badge.svg" alt="CI status" /></a>
   <a href="https://www.npmjs.com/package/@js_fleet/random-array-elements"><img alt="GitHub package.json version" src="https://img.shields.io/npm/v/@js_fleet/random-array-elements?style=flat-square"></a>
 </p>
+
 ## Code stats
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kushpranjale/random-array-elements?style=flat-square)
